@@ -1,0 +1,218 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+
+.btn-x
+  position: fixed
+  width: 40px
+  height: 40px
+  right: 20px
+  top: 37px
+  display: none
+  span
+    position: absolute
+    width: 100%
+    height: 7px
+    background: #000
+    border-radius: 4px
+    &.spn1
+      left: 0
+      top: 0
+    &.spn2
+      left: 0
+      top: 17px
+    &.spn3
+      left: 0
+      bottom: 0
+
+
+.section1
+  background: url(../img/slide-1.png) rgb(247, 247, 245)
+  background-repeat: no-repeat
+  background-position: top right
+  background-size: contain
+  min-height: 400px
+  padding-top: 78px
+  padding-bottom: 100px
+  p
+    margin-top: 14px
+    margin-bottom: 22px
+  h1
+    color:  #75184b
+    font-size: 40px
+  button
+    background-color:  #75184b
+    margin-top: 36px
+.section2
+  min-height: 400px
+  background: url(../img/bkg-section2.png)
+  position: relative
+  padding-top: 48px
+  padding-bottom: 86px
+  .section2-position-img
+    position: absolute
+    bottom: -3px
+    left: 0
+  p
+    margin-top: 22px
+    margin-bottom: 39px
+    color:  #becee7
+    max-width: 487px
+  h1
+    color: #fff
+    font-size: 40px
+    max-width: 639px
+    line-height: 43px
+
+  button
+    background-color:  #0081c3
+.section3
+  background: url(../img/bkg-section-3.jpg)
+  position: relative
+  padding: 58px 0 96px
+  background-repeat: repeat
+  min-height: 400px
+  .section2-position-img
+    position: absolute
+    bottom: 0
+    right: 0
+    z-index: 0
+  h1
+    color:  #2e2e2e
+    font-size: 40px
+    max-width: 639px
+    line-height: 43px
+  p
+    margin-bottom: 39px
+    color:  #2d2d2d
+    margin-top: 20px
+  button
+    background-color:  #ff8400
+.section4
+  background-color:  #f4f3f1
+  min-height: 461px
+  .col-md-6
+    padding: 61px 0 45px 0
+  h1
+    font-family: Georgia
+    color:  #1c1c1c
+    font-size: 40px
+    font-style: italic
+    line-height: 30px
+    text-align: left
+  p
+    font-family: Georgia
+    color:  #707070
+    font-size: 18px
+    font-weight: 400
+    line-height: 25px
+    text-align: left
+    margin: 28px 0 1px 0
+    max-width: 384px
+  a
+    font-family: Georgia
+    color:  #ed1b2e
+    font-size: 18px
+    font-weight: 400
+    line-height: 25px
+    text-align: left
+    line-height: 74px
+  .map
+    min-height: 461px
+    background: url(../img/map.png)
+    background-repeat: no-repeat
+    background-position: center top
+    position: relative
+    .map-text
+      position: absolute
+      font-family: HelveticaLTStd-BoldCond
+      right: 0
+      bottom: 20px
+      color:  #ed1b2e
+      line-height: 25px
+      font-weight: 700
+      text-transform: uppercase
+    .circle
+      background: #000
+      border-radius: 50%
+      max-width: 82px
+      max-height: 82px
+      width: 100%
+      line-height: 82px
+      text-align: center
+      color: #fff
+      font-family: HelveticaLTStd-Comp
+      font-size: 25px
+      margin: 0 auto
+    p
+      font-family: HelveticaLTStd-BoldCond
+      text-transform: uppercase
+      font-size: 18px
+      color:  #1c1c1c
+      text-align: center
+footer
+  padding-top: 57px
+  padding-bottom: 99px
+  .biz
+    list-style-type: none
+    padding: 0
+    li
+      a
+        text-decoration: none
+        font-family: HelveticaLTStd-Roman
+        color:  #1c1c1c
+        font-size: 15px
+        line-height: 30px
+        text-align: left
+        &:hover
+          border-bottom: 1px solid #000
+  .adress
+    font-family: HelveticaLTStd-Roman
+    color:  #8e8e8e
+    font-size: 15px
+    line-height: 22px
+    text-align: left
+    a
+      color:  #8e8e8e
+  .mail
+    font-family: HelveticaLTStd-BoldCond
+    display: block
+    margin-top: 10px
+    color:  #8e8e8e
+  .f-text
+    font-family: HelveticaLTStd-Roman
+    color:  #8e8e8e
+    font-size: 15px
+    line-height: 20px
+    text-align: left
+  .form-goup
+    background-color: #ffffff
+    width: 100%
+    height: 40px
+    margin-top: 25px
+    input
+      height: 100%
+      border: none
+      outline: none
+      padding: 0 15px 0 15px
+      width: 80%
+      float: left
+      border: 1px solid #909090
+    button
+      width: 20%
+      float: left
+      height: 100%
+      border: none
+      outline: none
+      background: #000
+      color: #fff
+  .s-icons
+    margin-top: 20px
+    a
+      float: left
+      margin-left: 12px
+      &:hover
+        opacity: 0.7
+
+@import "media"
